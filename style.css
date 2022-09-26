@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
   outline: none;
 }
 
 .showcase {
-  background-image: url('/Images/background.jpg');
+  background-image: url("/Images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -30,7 +29,7 @@
 }
 
 .navbar .logo {
-  color: #FEC544;
+  color: #fec544;
   font-size: 30px;
 }
 
@@ -49,8 +48,8 @@
 }
 
 .navbar ul li span {
-  color: #FEC544;
-  border-left: 1px solid #A9ADB8;
+  color: #fec544;
+  border-left: 1px solid #a9adb8;
   padding-left: 25px;
   padding-right: 5px;
   text-align: center;
@@ -58,7 +57,7 @@
 }
 
 .navbar ul li a {
-  color: #A9ADB8;
+  color: #a9adb8;
   font-weight: bold;
   transition: all 0.5 ease;
   display: flex;
@@ -66,14 +65,14 @@
 }
 
 .navbar ul li a:hover {
-  color: #FEC544;
+  color: #fec544;
 }
 
 .showcase-text {
   max-width: 800px;
   padding-top: 300px;
   padding-left: 120px;
-  color: white
+  color: white;
 }
 
 .showcase-text .text-1 {
@@ -90,7 +89,7 @@
   font-weight: 700;
 }
 
-.showcase-img img{
+.showcase-img img {
   position: absolute;
   bottom: 0;
   right: 0;
